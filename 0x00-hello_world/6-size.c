@@ -7,9 +7,9 @@
 
 int main(void)
 {
-	char  a;
-	int  c;
-	float  d;
+	char a;
+	int c;
+	float d;
 	long int f;
 	long long int g;
 
