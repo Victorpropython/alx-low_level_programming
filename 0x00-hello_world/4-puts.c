@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry piont
+ * main - Entry piont for the code
  *
- * return: Always 0
+ * Return: Always 0
  */
 int main(void)
 {
