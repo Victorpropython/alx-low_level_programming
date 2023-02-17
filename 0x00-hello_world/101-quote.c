@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 #include <stdlib.h>
 /**
  *main - A G program that prints that piece of art is useful
@@ -7,6 +6,7 @@
  */
 int main(void)
 {
-	write(1, "and that piece of art is useful\" - Dora korpar, 2015-10-19\n", 59);
-	exit(1);
+	write(STDOUT_FILENO, "and that piece of art is useful
+			\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
 }
