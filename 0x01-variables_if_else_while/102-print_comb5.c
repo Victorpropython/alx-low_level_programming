@@ -1,28 +1,34 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- * main - To print two digit of two numbers
+ * main -  To print two two digit possible combinations
  *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	int i, j;
+	int chi , vic;
 
-	for (i = 0; i <= 98; i++)
+	for (chi = 0; chi <= 98; chi++)
 	{
-		for (j = i + 1; j <= 99; j++)
+		for (vic = chi + 1; vic <= 99; vic++)
 		{
+			putchar((chi / 10) + '0');
+			putchar((chi % 10) + '0');
 
-		putchar((i / 10) + '0');
-		putchar((i % 10) + '0');
-		putchar(' ');
-		putchar((j / 10) + '0');
-		putchar((j % 10) + '0');
+			putchar(' ');
+			
+			putchar((vic / 10) + '0');
+			putchar((vic % 10) + '0');
+			
+			if (chi == 98 && vic == 99)
+				continue;
+
 			putchar(',');
 			putchar(' ');
+
 		}
+		putchar('\n');
+		return (0);
 	}
-	putchar('\n');
-	return (0);
 }
