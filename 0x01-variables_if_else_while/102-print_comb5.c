@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int chi , vic;
+	int chi, vic;
 
 	for (chi = 0; chi <= 98; chi++)
 	{
@@ -15,20 +15,17 @@ int main(void)
 		{
 			putchar((chi / 10) + '0');
 			putchar((chi % 10) + '0');
-
 			putchar(' ');
-			
 			putchar((vic / 10) + '0');
 			putchar((vic % 10) + '0');
-			
+
 			if (chi == 98 && vic == 99)
 				continue;
 
 			putchar(',');
 			putchar(' ');
-
 		}
-		putchar('\n');
-		return (0);
 	}
+	putchar('\n');
+	return (0);
 }
