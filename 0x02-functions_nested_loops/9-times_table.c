@@ -14,8 +14,9 @@ void times_table(void)
 		{
 			b = n * t;
 			_putchar((b / 10) + '0');
-			_putchar((b % 10) + '0');
+			//_putchar((b % 10) + '0');
 			_putchar(' ');
+			_putchar(',');
 		}
 		_putchar('\n');
 	}
