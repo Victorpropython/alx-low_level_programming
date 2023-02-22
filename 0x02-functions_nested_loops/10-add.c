@@ -2,7 +2,7 @@
 /**
  *add - To add two integers
  *@n: used as variable
- *@m: for variable
+ *@m: used also for variable
  *Return: Always success
  */
 int add(int n, int m)
