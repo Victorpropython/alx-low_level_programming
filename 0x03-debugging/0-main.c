@@ -2,7 +2,7 @@
 
 /**
  *main - tests if integer is positive or negative
- *@i: the variable 
+ * 
  *Return: 0
  */
 int main(void)
