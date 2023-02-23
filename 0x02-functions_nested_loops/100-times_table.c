@@ -6,14 +6,13 @@
  */
 void print_times_table(int n)
 {
-	int b. m , j;
+	int b, m, j;
 
 	if (n <= 0 && n >= 15)
 	{
-
 	for (m = 0; m <= n; m++)
 	{ _putchar('0');
-		for (j = 1; j <= n; j ++)
+		for (j = 1; j <= n; j++)
 		{	_putchar(',');
 			_putchar(' ');
 
@@ -25,15 +24,13 @@ void print_times_table(int n)
 			if (b >= 100)
 			{
 				_putchar((b / 100) + '0');
-				_putchar(((b /100) % 10) + '0');
+				_putchar(((b / 100) % 10) + '0');
 			}
-			else (b <= 99 && b >= 10)
-			{
+			else if (b <= 99 && b >= 10)
 				_putchar((b / 10) + '0');
-			}
-			_putchar((b % 10) + '0');
+			 _putchar((b % 10) + '0');
 		}
 	}
-	_putchar('\n');
+	 _putchar('\n');
 	}
-}	
+}
