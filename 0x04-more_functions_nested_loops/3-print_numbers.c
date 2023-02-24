@@ -3,7 +3,7 @@
  *print_number - To print out digits
  *Return: 0
  */
-void  print_number(void)
+voidi  print_numbers(void)
 {
 	int c;
 	
