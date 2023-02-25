@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_triangle - to print a triangle
- * @size : used as a variable
- * return: Always 0
+ *print_triangle - to print a triangle
+ *@size: used as a variable
+ * Return: Always 0
  */
 void print_triangle(int size)
 {
@@ -16,7 +16,7 @@ void print_triangle(int size)
 	else 
 	{ 
 	for (x = 0; x <= size; x++)
-	}
+	{
 	for (y = size - x; y > 1; y--)
 	{
 	_putchar(32);
@@ -26,6 +26,4 @@ void print_triangle(int size)
 	_putchar(35);
 	}
 	_putchar('\n');
-	}
-	}
-}
+}}}	
