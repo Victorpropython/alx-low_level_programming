@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  *rev_string - To rverse a string
- * @*s: use as a  vpionter variable
- * Reeturn: Always 0
+ * @*s: use as a  pionter variable
+ * @s: used as a normal variable
+ * Return: Always 0
  */
 void rev_string(char *s)
 {
@@ -12,7 +13,7 @@ void rev_string(char *s)
 	while (s[index++])
 	len++;
 
-	for (index = len - 1; index >= len / 2; index--)
+	for (index = len - 1; index >= len / 2; index++)
 	{
 		temp = s[index];
 		s[index] = s[len - 1];
