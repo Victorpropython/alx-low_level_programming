@@ -8,7 +8,7 @@ char *rot13(char *enc)
 {
 	int i, j;
 	char s[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char s1[] = "NOPQRSTUVWUXYZABCDEFGHIJKLMnopqrstuvwxyzabcdifghijklm";
+	char s1[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdifghijklm";
 
 	for (i = 0; enc[i] != '\0'; i++)
 	{
