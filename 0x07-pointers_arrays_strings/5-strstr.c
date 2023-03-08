@@ -12,7 +12,7 @@ char *_strstr(char *haystack, char *needle)
 
 	for (; *haystack != '\0'; haystack++)
 	{
-		while (*num1 == *num2 && *num2 != '\0')
+		while (*num1 != '\0' &&  *num1 == *num2 && *num2 != '\0')
 		{
 			num1++;
 			num2++;
