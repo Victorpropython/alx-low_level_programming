@@ -7,12 +7,11 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	char *num1 = haystack;
-	char *num2 = needle;
-
 	for (; *haystack != '\0'; haystack++)
 	{
-		while (*num1 != '\0' &&  *num1 == *num2 && *num2 != '\0')
+		char *num1 = haystack;
+		char *num2 = needle;
+		while (*num1 == *num2 && *num2 != '\0')
 		{
 			num1++;
 			num2++;
