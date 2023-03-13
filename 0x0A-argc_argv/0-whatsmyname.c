@@ -1,13 +1,12 @@
-#include <stdio.h>
+ #include <stdio.h>
 /**
- * main - To print program name of its self
- * @argc: argument count
- * @argv: arry of argc
- * Return: Always 0
+ * main - To print its name and any other name given to it
+ * @argc: for argument count
+ * @argv: for array count
+ * Return: Aleays 0
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(argc __attribute__((unused)), char *argv[])
 {
-	printf("%s \n", argv[0]);
+	printf("%s\n", *argv);
 	return (0);
 }
-
