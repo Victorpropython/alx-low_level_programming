@@ -1,19 +1,13 @@
-#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - To print program name of its self
  * @argc: argument count
  * @argv: arry of argc
  * Return: Always 0
  */
-int main(int argc, char **argv)
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	while (argc--)
-	{
-		printf("%s \n", *argv++);
-		exit (EXIT_SUCCESS);
-	}
+	printf("%s \n", argv[0]);
 	return (0);
 }
 

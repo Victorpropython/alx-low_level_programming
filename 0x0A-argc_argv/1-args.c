@@ -7,13 +7,14 @@
  * @argv; used for array of sisze argc
  * Return: always 0
  */
-int main(int argc, char **argv)
+int _main(int argc)
 {
 	int i;
 
-	if (argc > 1)
+
+	if (argc >= 1)
 	{
-		for (i = 0 ; i < argc; i++)
+		for (i = 0; i < argc; i++)
 	
 			printf("%d\n", i);
 	}
