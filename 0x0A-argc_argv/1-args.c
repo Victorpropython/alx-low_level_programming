@@ -4,7 +4,7 @@
 /**
  * main - Tp print argument count
  * @argc: used for argument count
- * @argv; used for array of sisze argc
+ * @argv: used for array of sisze argc
  * Return: always 0
  */
 int main(int argc, char *argv[] __attribute__((unused)))
