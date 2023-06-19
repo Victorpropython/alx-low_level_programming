@@ -5,16 +5,16 @@
  */
 int main(void)
 {
-	char low_alpha;
-	int upper;
+	char alpha;
+	int num;
 
-	for (low_alpha = 'a'; low_alpha <= 'f'; low_alpha++)
+	for (num = '0'; num <= '9'; num++)
 	{
-		putchar(low_alpha);
+		putchar(num);
 	}
-	for (upper = '0'; upper <= '9'; upper++)
+	for (alpha = 'a'; alpha <= 'f'; alpha++)
 	{
-		putchar(upper);
+		putchar(alpha);
 	}
 	putchar('\n');
 	return (0);
