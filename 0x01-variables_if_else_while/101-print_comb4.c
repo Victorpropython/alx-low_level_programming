@@ -16,8 +16,9 @@ int main(void)
 				putchar('0' + i);
 				putchar('0' + j);
 				putchar('0' + k);
-				if (i != 7 || j != 8 || k != 9)
-					putchar(',');
+				if (i == 7 && j == 8 && k == 9)
+					continue;
+				putchar(',');
 				putchar(' ');
 			}
 		}
