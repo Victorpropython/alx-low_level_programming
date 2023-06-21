@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_alphabet - To print alphabet in lowercase
+ * print_alphabet_x10 - To print alphabet in lowercase 10 times
  * Return: Always 0 (success)
 */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int i = 0;
 	char alpha = 'a';
