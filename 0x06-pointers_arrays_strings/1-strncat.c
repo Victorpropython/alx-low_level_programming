@@ -5,7 +5,7 @@
  *@src: string variable 2
  *@n: the int variable
  *
- *Return: To return concatenated string 
+ *Return: To return concatenated string
  */
 char *_strncat(char *dest, char *src, int n)
 {
