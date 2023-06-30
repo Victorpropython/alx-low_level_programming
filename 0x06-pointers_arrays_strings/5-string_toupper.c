@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  **string_toupper - To change all lowercase of string to upper
+ *@strg: Used for pionter variable
  *
  *Return: Always (0) success
  */
