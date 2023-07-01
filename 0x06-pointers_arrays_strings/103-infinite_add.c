@@ -6,14 +6,14 @@
  *@r: char variable
  *@size_r: size of pointer for r
  *
- *Retturn: To return added number
+ *Return: To return added number
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int num1 = 0, num2 = 0;
 
 	while (*(n1 + num1++))
-		; 
+		;
 	while (*(n2 + num2++))
 		;
 	if (num1 > size_r || num2 > size_r)
