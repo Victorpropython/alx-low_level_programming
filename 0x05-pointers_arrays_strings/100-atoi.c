@@ -20,7 +20,7 @@ int _atoi(char *s)
 			c *= -1;
 		tmp++;
 	}
-	if (*temp != '\0')
+	if (*tmp != '\0')
 	{
 		do {
 			num = num * 10 + (*tmp - '0');
