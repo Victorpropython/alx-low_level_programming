@@ -2,7 +2,6 @@
 /**
  * puts_half - function that prints half of a string, followed by a new line
  * @str: used as pointer variable
- * @n: length of the string - 1
  *
  * Return: To return str.
  */
