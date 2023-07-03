@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <unistd.h>
-#include <unilib.h>
+#include <stdlib.h>
 #include <stdio.h>
 
 void set_string(char **s, char *to);
