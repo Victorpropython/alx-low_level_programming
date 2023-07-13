@@ -47,7 +47,8 @@ while (cents > 0)
 }
 printf("%d\n", coins);
 return (0);
-}#include <stdio.h>
+}
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
