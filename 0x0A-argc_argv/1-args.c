@@ -6,8 +6,10 @@
  *
  *Return: Always 0
  */
-int main(int __attribute__((__unused__)) argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("s\n", argv[0]);
+	int argucount = argc - 1;
+
+	printf("%d\n", argucount);
 	return (0);
 }
