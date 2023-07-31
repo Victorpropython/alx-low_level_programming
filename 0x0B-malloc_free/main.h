@@ -12,6 +12,6 @@ char *_strdup(char *str);
 char *create_array(unsigned int size, char c);
 int _putchar(char c);
 int len(char *string);
-
+int num_words(char *str);
 
 #endif
