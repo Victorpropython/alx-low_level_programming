@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 /**
- *print_all - a function that prints anything.
+ *print_char - a function that prints anything.
  *@arg: A list of arguments pointing to the
  *character to be printed
  */
