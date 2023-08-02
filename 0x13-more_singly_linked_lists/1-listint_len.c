@@ -7,12 +7,12 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	unsigned int num;
+	unsigned int num = 0;
 
 	while (h)
 	{
-		num++;
 		h = h->next;
+		num++;
 	}
 	return (num);
 }
