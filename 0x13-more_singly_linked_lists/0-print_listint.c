@@ -2,7 +2,6 @@
 /**
  *print_listint - function that prints all the elements
  *of a listint_t list
- *@listint_t: List of nodes in int
  *@h: Pointer to variable
  *Return: To return number of nodes
  */
