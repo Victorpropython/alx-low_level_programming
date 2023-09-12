@@ -23,5 +23,5 @@
 
 ---
 ## Author
-* **Victor Chibuike** - [Victorpropython](htttps://github.com/victorpropython)
+* **Victor Chibuike** - [Victorpropython](https://github.com/victorpropython)
 
