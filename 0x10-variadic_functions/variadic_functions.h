@@ -15,7 +15,7 @@ typedef struct printer_s
 {
 	char *symbol;
 	void (*print)(va_list arg);
-}printer_t;
+} printer_t;
 
 void print_char(va_list arg);
 void print_float(va_list arg);
