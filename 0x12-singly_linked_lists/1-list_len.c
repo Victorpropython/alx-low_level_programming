@@ -5,7 +5,7 @@
  * @h: listint_t type of node struct
  * Return: Always successful
  */
-size_t listint_len(const listint_t *h)
+size_t list_len(const list_t *h)
 {
 	unsigned int count;
 
