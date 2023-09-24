@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * print_listint - function to print all elements
+ * print_list - function to print all elements
  * @h: listint_t type of node struct
  * Return: Always successful
  */
