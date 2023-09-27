@@ -19,8 +19,7 @@ void free_listint2(listint_t **head)
 			point = *head;
 			free(point);
 			*head = (*head)->next;
-		}	
-
+		}
 	*tmp = NULL;
 
 	}
