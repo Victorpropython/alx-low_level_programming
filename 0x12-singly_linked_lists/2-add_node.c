@@ -5,14 +5,14 @@
  * @n: const int type
  * Return: Always successful
  */
-listint_t *add_nodeint(listint_t **head, const int n)
+list_t *add_node(list_t **head, const char *str)
 {
-	listint_t *top = NULL;
+	list_t *top = NULL;
 
-	top = malloc(sizeof(listint_t));
+	top = malloc(sizeof(list_t));
 	if (top == NULL)
 		return (NULL);
-	top->n = n;
+	top->str = str;
 	top->next = *head;
 	*head = top;
 	return (*head);

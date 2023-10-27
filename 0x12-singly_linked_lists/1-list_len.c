@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * listint_len - function to print all elements
- * @h: listint_t type of node struct
+ * list_len - function to print all elements
+ * @h: list_t type of node struct
  * Return: Always successful
  */
 size_t list_len(const list_t *h)
