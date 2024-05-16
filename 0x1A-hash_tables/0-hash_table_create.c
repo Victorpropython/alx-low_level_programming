@@ -6,14 +6,14 @@
  *
  * Return: to return NULL or a pointer to the newly created hash table
  */
+
 hash_table_t *hash_table_create(unsigned long int size)
 {
-
 	hash_table_t *ptr;
-	unsigned long int i;
+	/*unsigned long int i;*/
 
 	ptr = malloc(sizeof(hash_table_t));
-	if (ptr == NULL)
+	if (size == 0)
 	{
 		return (NULL);
 	}
@@ -26,10 +26,11 @@ hash_table_t *hash_table_create(unsigned long int size)
 		free(ptr);
 		return (NULL);
 	}
-	for (i = 0; i < size; i++)
-	{
-		(*ptr).array[i] = NULL;
-	}
+	/*for (i = 0; i < size; i++)
+	*{
+	*	(*ptr).array[i] = NULL;
+	*}
+	*/
 
 	return (ptr);
 }
