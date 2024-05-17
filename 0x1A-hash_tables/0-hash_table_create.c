@@ -20,9 +20,9 @@ hash_table_t *hash_table_create(unsigned long int size)
 	{
 		return (NULL);
 	}
-	(*ptr).size = size;
-	(*ptr).array = calloc(size, sizeof(hash_node_t));
-	if ((*ptr).array == NULL)
+	ptr->size = size;
+	ptr->array = calloc(size, sizeof(hash_node_t *));
+	if (ptr->array == NULL)
 	{
 		free(ptr);
 		return (NULL);
